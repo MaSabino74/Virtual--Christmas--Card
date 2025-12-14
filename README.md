@@ -28,7 +28,7 @@ com foco em experiência do usuário, animações suaves e código limpo.
 <br>
 ## 🔗 Demo
 
-👉 [Acessar o cartão](https://seu-usuario.github.io/cartao-natal-interativo)
+👉 [Acessar o cartão](https://virtualchristmascard.netlify.app/)
 <br>
 ## 🚀 Próximos Passos
 
