@@ -50,8 +50,9 @@
     position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.9s;
+    transition: transform 0.9s ease;
     transform-style: preserve-3d;
+    transform-origin: center center;
     cursor: pointer;
   }
 
@@ -61,11 +62,12 @@
 
   .card-face {
     position: absolute;
+    inset: 0;  
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    
   }
 
   .card-front {
@@ -87,12 +89,12 @@
     color: #fff;
     transform: rotateY(180deg);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 4px solid #b30000;
     text-align: center;
     padding: 20px;
+    box-sizing: border-box;
   }
 
   .card-back h2 {
@@ -158,3 +160,4 @@
     }
 
   }
+
