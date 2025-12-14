@@ -1,0 +1,23 @@
+
+  /* Ajustes extra para telas muito pequenas */
+  @media (max-width: 360px) {
+    .card-back p {
+      font-size: 0.9em;
+    }
+  }
+
+  /* Tablets (retrato) */
+  @media (min-width: 600px) and (max-width: 900px) {
+    .card {
+      max-width: 380px;
+      height: 540px;
+    }
+  }
+
+  /* Desktop / telas grandes */
+  @media (min-width: 901px) {
+    .card {
+      max-width: 420px;
+      height: 560px;
+    }
+  }
