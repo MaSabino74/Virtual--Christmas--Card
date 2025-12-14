@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartão de Natal Interativo 🎄</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <button id="audioToggle" aria-label="Ativar música">🔈</button>
+  <audio id="music" loop>
+    <source src="./assets/audio/we-wish-you-a-merry-christmas-444573.mp3" type="audio/mpeg">
+  </audio>
+<div class="scene" >
+ <div class="card" id="card">
+    <div class="card-inner">
+      
+        <div class="card-face card-front">
+            <h1>🎄FELIZ NATAL🎄</h1>
+            <p>🎅Toque para abrir🎅</p>
+
+        </div>
+        <!-- Verso -->
+        <div class="card-face card-back">
+            <div class="contorno">
+                <!-- Slider -->
+                <div class="slider" id="slider">
+                    <div class="slide active">
+                        <img src="./assets/img/Natal_2.webp" alt="Árvore de Natal">
+                        <div class="caption">🎄 Espalhe amor e luz neste Natal</div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/Natal_1.webp" alt="Presentes">
+                        <div class="caption">🎁 Pequenos gestos fazem grandes diferenças</div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/Natal_4.webp" alt="Chocolate quente">
+                        <div class="caption">☕ Aqueça o coração e celebre com quem ama</div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/Natal_3.webp" alt="Vila de Natal">
+                        <div class="caption">🏠 Que seu lar transborde alegria e esperança</div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/Natal_5.webp" alt="Luzes de Natal">
+                        <div class="caption">✨ Que as luzes do Natal iluminem seus sonhos</div>
+                    </div>
+                </div>
+                <h2>Feliz Natal!</h2>
+                <p id="message">
+                    "Neste Natal, que a gente acenda nossa luz interior e transborde alegria
+                    para quem está por perto! Desejo um Natal brilhante de alegria,
+                    solidariedade, união e muito amor!" 🎁✨
+                </p>
+                <p>— Marquinhos Sabino</p>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
